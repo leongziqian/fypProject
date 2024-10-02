@@ -1,5 +1,4 @@
 openai==0.28
 streamlit==1.25.0
 transformers==4.34.0
-torch==2.0.1
 langchain
