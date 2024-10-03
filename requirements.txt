@@ -1,5 +1,5 @@
 #openai==0.28
-#transformers==4.38.0
+transformers==4.44.2
 streamlit
 #langchain
 #torch==2.4.0
