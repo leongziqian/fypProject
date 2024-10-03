@@ -2,4 +2,4 @@ openai==0.28
 transformers==4.38.0
 streamlit
 langchain
-torch==2.2.0
+torch==2.4.0
