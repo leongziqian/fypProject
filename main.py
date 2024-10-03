@@ -3,10 +3,10 @@ import streamlit as st
 from transformers import pipeline
 
 # Load a pre-trained summarization model
-summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+summarizer = pipeline("summarization", model="facebook/bart-large-cnn", device=-1)
 
 def summarize_content(text):
-    summary = summarizer(text, max_length=130, min_length=50, do_sample=False, clean_up_tokenization_spaces=False)
+    summary = summarizer(text, max_length=130, min_length=50, do_sample=False, clean_up_tokenization_spaces=True)
     return summary[0]['summary_text']
 
 # Set up the Streamlit app
