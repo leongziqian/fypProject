@@ -3,7 +3,7 @@ import streamlit as st
 from transformers import pipeline
 
 # Load a pre-trained summarization model
-summarizer = pipeline("summarization", model="facebook/bart-large-cnn", device=-1)
+summarizer = pipeline("summarization", model="facebook/bart-large-cnn", device=0)
 
 def summarize_content(text):
     summary = summarizer(text, max_length=130, min_length=50, do_sample=False, clean_up_tokenization_spaces=True)
