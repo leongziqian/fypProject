@@ -4,7 +4,7 @@ streamlit
 #langchain
 torch
 
-
+transformers
 pymupdf
 chainlit 
 PyPDF2
