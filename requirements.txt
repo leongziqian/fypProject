@@ -1,11 +1,11 @@
 #openai==0.28
-transformers
-streamlit
+#transformers
+#streamlit
 #langchain
-torch
+#torch
 
-torch
-transformers
+torch==2.0.1 
+transformers==4.25.1
 pymupdf
 chainlit 
 PyPDF2
