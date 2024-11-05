@@ -3,3 +3,12 @@ transformers
 streamlit
 #langchain
 torch
+
+
+pymupdf
+chainlit 
+PyPDF2
+python-docx 
+openai 
+langchain-community 
+langchain
